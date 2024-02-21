@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Introvert to Extrovert</title>
+    <style>
+        /* CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff4e50, #fcdb49); /* Vibrant background gradient */
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Overlay color with transparency */
+            z-index: 1; /* Ensure the overlay is above other elements */
+        }
+        header {
+            position: relative; /* Ensure content within header is positioned relative to the header */
+            z-index: 2; /* Ensure the header content is above the overlay */
+            background-color: #512DA8; /* purple */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #4CAF50; /* green */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative; /* Ensure content within nav is positioned relative to the nav */
+            z-index: 2; /* Ensure the nav links are above the overlay */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+            position: relative; /* Ensure content within main is positioned relative to the main */
+            z-index: 2; /* Ensure the main content is above the overlay */
+        }
+        footer {
+            background-color: #007BFF; /* blue */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Added styles for section headings */
+        h2 {
+            color: #512DA8; /* purple */
+            border-bottom: 2px solid #512DA8; /* purple */
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        /* Added style for article links */
+        .article-link {
+            color: #007BFF; /* blue */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .article-link:hover {
+            text-decoration: underline;
+        }
+        /* Styles for chatbot */
+        .chat-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            /* Make chatbot responsive */
+            width: 80%; /* Adjust the width based on the screen size */
+            max-width: 400px; /* Limit maximum width for larger screens */
+        }
+        .chat-log {
+            max-height: 200px;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        .user-message {
+            text-align: right;
+            background-color: #4CAF50; /* green */
+            color: #fff;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .ai-message {
+            text-align: left;
+            background-color: #512DA8; /* purple */
+            color: #fff;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .input-container {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 5px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF; /* blue */
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<header>
+    <img src="placeholder_logo.png" alt="Logo">
+    <h1>From Introvert to Extrovert</h1>
+    <p>Welcome to our colorful website dedicated to helping introverted individuals become more extroverted!</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Articles</a>
+    <a href="#">Community</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <h2>About Us</h2>
+    <p>Our mission is to provide resources, tips, and support for introverted individuals who wish to become more extroverted. Whether you're looking to improve your social skills, build confidence in social settings, or simply step out of your comfort zone, we're here to help!</p>
+    <h2>Articles</h2>
+    <p>Explore our collection of articles and blog posts filled with practical tips and advice on how introverts can become more extroverted.</p>
+    <ul>
+        <li><a href="#" class="article-link">10 Tips for Breaking Out of Your Shell</a></li>
+        <li><a href="#" class="article-link">The Power of Small Talk: A Guide for Introverts</a></li>
+        <li><a href="#" class="article-link">Overcoming Social Anxiety: Steps to Confidence</a></li>
+        <li><a href="#" class="article-link">Embracing Vulnerability: How Introverts Can Connect Authentically</a></li>
+        <li><a href="#" class="article-link">Stepping Outside Your Comfort Zone: Practical Strategies</a></li>
+    </ul>
+    <h2>Community</h2>
+    <p>Join our vibrant community of introverts and extroverts alike! Connect with others, share your experiences, ask questions, and provide support and encouragement.</p>
+    <p><a href="#" class="article-link">Join the Community</a
