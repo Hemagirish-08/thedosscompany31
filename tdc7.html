@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Doss Company - Bridal Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: gold;
+      text-align: center; /* Center align all text */
+    }
+
+    header {
+      background-color: #333; /* Dark background color */
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0; /* Remove default margin */
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: gold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    /* Adjust logo size */
+    header img {
+      width: 80px; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Hide all slides by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Next and previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://lh5.googleusercontent.com/-jKw0TKJjWSE/AAAAAAAAAAI/AAAAAAAAAAA/_NIERoJYZXY/s40-c-k-mo/photo.jpg" alt="The Doss Company Logo">
+  <h1>The Doss Company</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#dresses">Dresses</a></li>
+      <li><a href="#makeup">Makeup</a></li>
+      <li><a href="#hairdo">Hairdo</a></li>
+      <li><a href="#aariwork">Aari Work</a></li>
+      <li><a href="#stitching">Stitching</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="slideshow-container">
+ <section class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipO_d-7RzKKxHB_bEOXiqmZhsp9_uCwJFnJFchJU=s680-w680-h510" style="width:75%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipNHsrNsoHtC_3MOLc_Y0LG2rnRxrz0KpLYa6HK1=s680-w680-h510" style="width:75%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipO7KjF104BSDhXczb0Cvb-gPBndW7PYGpFXXMFL=s680-w680-h510">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipNM5l4ogWeV_P7dwNhC0vVcxlRdfRLK2olSAyKa=s680-w680-h510">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipOSBQWRgL1IfzIdoJcFqJISjde4S-SK8NSl1Svj=s680-w680-h510" style="width:50%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipMrs5WX7uPLCPAwCn7J1aQggL3onynWwLM2db7E=s680-w680-h510" style="width:60%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipPISC6R3qGw8J9OkN8VZQVam8AjIiuHADM5AWFK=s680-w680-h510" style="width:60%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipO9VkuHfoJW3KY38YL41H-4YiuGPYCAxKNLdPDS=s680-w680-h510" style="width:60%">
+  </div>
+</section>
+
+
+  <!-- Add more slides here if needed -->
+
+</section>
+
+<!-- Instagram Link -->
+<a href="https://www.instagram.com/thedosscompany/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram Logo" style="width: 50px; height: 50px;">
+</a>
+
+<script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+</script>
+
+<section id="about">
+  <h2>About Us</h2>
+  <!-- Add about us content here -->
+  <p>The Doss Company is an exceptional destination for my esteemed women clients, offering a comprehensive array of services including makeup artistry, cutting-edge design expertise, state-of-the-art studio facilities, and even the convenience of costume rentals.</p>
+  <p>Its versatility makes it an unparalleled choice for weddings, exuding the perfect ambiance and catering to every occasion with unwavering dedication.</p>
+</section>
+
+<section id="dresses">
+  <h2>Bridal Dresses</h2>
+  <!-- Add dresses content here -->
+</section>
+
+<section id="makeup">
+  <h2>Makeup Services</h2>
+  <!-- Add makeup content here -->
+</section>
+
+<section id="hairdo">
+  <h2>Hairdo Services</h2>
+  <!-- Add hairdo content here -->
+</section>
+
+<section id="aariwork">
+  <h2>Aari Work</h2>
+  <!-- Add aari work content here -->
+</section>
+
+<section id="stitching">
+  <h2>Dress Stitching</h2>
+  <!-- Add stitching content here -->
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <!-- Add contact form or contact information here -->
+  <p>Contact us for inquiries, appointments, or any other assistance.</p>
+  <p>Phone: 080561 93914</p>
+  <p>Email: info@thedosscompany.com</p>
+</section>
+
+<footer>
+  <p>&copy; 2024 The Doss Company</p>
+</footer>
+
+</body>
+</html>
